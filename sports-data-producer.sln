@@ -12,9 +12,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsData.Producer", "src\SportsData.Producer\SportsData.Producer.csproj", "{59954B88-607E-449D-B58D-4E968178EB6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportsData.Producer", "src\SportsData.Producer\SportsData.Producer.csproj", "{59954B88-607E-449D-B58D-4E968178EB6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsData.Producer.Tests.Unit", "test\SportsData.Producer.Tests.Unit\SportsData.Producer.Tests.Unit.csproj", "{F07E6418-672D-4F60-AE81-BC1FC80013F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportsData.Producer.Tests.Unit", "test\SportsData.Producer.Tests.Unit\SportsData.Producer.Tests.Unit.csproj", "{F07E6418-672D-4F60-AE81-BC1FC80013F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsData.Producer.Tests.Integration", "test\SportsData.Producer.Tests.Integration\SportsData.Producer.Tests.Integration.csproj", "{7A32CE02-1249-4A99-8DB6-8565ED046B01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +32,10 @@ Global
 		{F07E6418-672D-4F60-AE81-BC1FC80013F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F07E6418-672D-4F60-AE81-BC1FC80013F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F07E6418-672D-4F60-AE81-BC1FC80013F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A32CE02-1249-4A99-8DB6-8565ED046B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A32CE02-1249-4A99-8DB6-8565ED046B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A32CE02-1249-4A99-8DB6-8565ED046B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A32CE02-1249-4A99-8DB6-8565ED046B01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +43,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{59954B88-607E-449D-B58D-4E968178EB6B} = {6F94ECA9-2AD0-4CA6-8838-B99F100E1E27}
 		{F07E6418-672D-4F60-AE81-BC1FC80013F2} = {61447393-835C-4EB0-9622-FE6BCBE8BA91}
+		{7A32CE02-1249-4A99-8DB6-8565ED046B01} = {61447393-835C-4EB0-9622-FE6BCBE8BA91}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {739C6623-DE24-4130-97CE-EB0636E0CFC2}
