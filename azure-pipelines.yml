@@ -31,6 +31,10 @@ variables:
   Patch: '1'
   PackageVersion: '1.0.1'
 
+  # Deploy Vars
+  azureSubscription: 'dev-sports-data-connection'
+  appName: 'dev-sdproducer'
+
 stages:
 - stage: BuildAndTest
   jobs:
